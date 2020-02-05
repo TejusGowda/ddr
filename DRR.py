@@ -135,5 +135,5 @@ class GPS:
             "longDir" : a[5],
             "fix" : a[6]
         }
-            print gpsData
+            return gpsData
         #print received data
